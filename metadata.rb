@@ -1,0 +1,7 @@
+name             'test-windows'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures test-windows'
+long_description 'Installs/Configures test-windows'
+version          '0.1.0'
