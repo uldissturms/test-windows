@@ -1,0 +1,16 @@
+{
+  "builders": [
+    {
+      "type": "amazon-ebs",
+      "region": "eu-west-1",
+      "source_ami": "ami-032b4b74",
+      "instance_type": "t2.micro",
+      "ssh_username": "Administrator",
+      "ssh_timeout": "30m",
+      "security_group_ids": [
+        "sg-265d7843"
+      ],
+      "ami_name": "test-windows"
+    }
+  ]
+}
